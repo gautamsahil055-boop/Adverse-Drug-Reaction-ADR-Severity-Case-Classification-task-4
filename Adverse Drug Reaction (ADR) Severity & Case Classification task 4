@@ -1,0 +1,93 @@
+ADR Severity & Case Classification
+
+1. Introduction
+
+Adverse Drug Reaction (ADR) severity and case classification are important components of pharmacovigilance. They help evaluate the intensity, seriousness, and expectedness of adverse reactions associated with medicines.
+
+This project demonstrates the classification of ADR cases using standard pharmacovigilance principles.
+
+2. Objectives
+
+- To assess the severity of adverse drug reactions.
+- To differentiate serious and non-serious ADRs.
+- To classify reactions as expected or unexpected.
+- To evaluate the clinical impact of ADRs.
+- To understand the importance of ADR classification in drug safety monitoring.
+
+3. ADR Severity Classification
+
+Severity refers to the intensity of an adverse reaction.
+
+Severity| Description| Example
+Mild| Easily tolerated; usually requires minimal intervention.| Mild skin rash
+Moderate| Causes discomfort and may require treatment.| Persistent nausea
+Severe| Causes significant symptoms or functional impairment.| Severe allergic reaction
+
+Note: Severe intensity does not automatically mean that an ADR is classified as serious.
+
+4. Seriousness Classification
+
+An ADR is considered serious if it results in any of the following outcomes:
+
+- Death
+- Life-threatening condition
+- Hospitalization or prolongation of existing hospitalization
+- Persistent or significant disability or incapacity
+- Congenital anomaly or birth defect
+- Other medically important condition
+
+A non-serious ADR does not meet these seriousness criteria.
+
+5. Expectedness Classification
+
+Expectedness is determined by comparing the reported reaction with the applicable reference safety information, such as the approved product information.
+
+Classification| Description
+Expected| The nature and severity of the reaction are consistent with the reference safety information.
+Unexpected| The reaction's nature, severity, or specificity is inconsistent with the reference safety information.
+
+Expectedness must be assessed using the relevant product information.
+
+6. Case-Based Assessment
+
+The following are illustrative educational examples.
+
+Case| Drug| Adverse Reaction| Severity| Seriousness
+01| Amoxicillin| Mild skin rash| Mild| Non-serious, based on the information provided
+02| Ibuprofen| Gastrointestinal bleeding requiring hospitalization| Severe| Serious
+03| Metformin| Lactic acidosis requiring hospitalization| Severe| Serious
+
+Expectedness Assessment
+
+Expectedness for each case must be checked against the applicable product information. The reaction alone is insufficient to establish whether it is expected or unexpected.
+
+7. Case Classification Workflow
+
+1. Identify the suspected medicine and adverse reaction.
+2. Review the patient's clinical presentation.
+3. Assess the intensity of the reaction.
+4. Determine whether any regulatory seriousness criterion is met.
+5. Compare the reaction with the applicable reference safety information.
+6. Document the classification and supporting rationale.
+
+8. Importance in Pharmacovigilance
+
+- Supports systematic assessment of adverse drug reactions.
+- Helps identify cases requiring expedited regulatory reporting.
+- Assists in evaluating the clinical impact of suspected ADRs.
+- Supports signal detection and risk assessment.
+- Contributes to patient safety and benefit-risk evaluation.
+
+9. Conclusion
+
+ADR severity and case classification are essential pharmacovigilance activities. Correctly distinguishing severity, seriousness, and expectedness helps ensure consistent case assessment, appropriate safety reporting, and effective monitoring of medicine-related risks.
+
+10. Disclaimer
+
+This repository is intended for educational purposes only. The example cases are hypothetical and do not represent actual patient reports. Classification and reporting decisions should follow applicable regulatory requirements and product-specific safety information.
+
+11. References
+
+- International Council for Harmonisation (ICH), E2A: Clinical Safety Data Management — Definitions and Standards for Expedited Reporting.
+- International Council for Harmonisation (ICH), E2D: Post-Approval Safety Data Management — Definitions and Standards for Expedited Reporting.
+- World Health Organization (WHO): Pharmacovigilance and drug safety resources.
