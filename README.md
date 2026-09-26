@@ -1,0 +1,2 @@
+# Adverse-Drug-Reaction-ADR-Severity-Case-Classification-task-4
+This repository focuses on the severity and classification of Adverse Drug Reactions based on seriousness, severity, and expectedness. It includes case-based assessments, serious and non-serious ADR classification, and clinical impact evaluation according to pharmacovigilance guidelines, supporting practical understanding of drug safety assessment.
